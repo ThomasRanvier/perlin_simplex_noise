@@ -1,11 +1,11 @@
-# Perlin & Simplex_noise
+# Perlin & Simplex noise
 
 Implementation of the Perlin noise, and then of the Simplex noise.
 
 There is several function that you can use to visualize the noises with different settings to obtain different results.
 There is 2 function that allow a "3d" visualization, where you travel slice by slice into the noise.
 
-Result using the firelike function :
+Result using the firelike function (obtained by adding noises with decreased amplitude and increased frequence over previous noises) :
 ![firelike](firelike.png)
 
 Result using Perlin noise, a 0.007 scale and a blurr of 1 :
